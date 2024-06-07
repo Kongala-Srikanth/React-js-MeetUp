@@ -1,0 +1,43 @@
+.register-page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+}
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-img {
+  height: 450px;
+}
+
+.label {
+  font-size: 17px;
+  color: #64748b;
+  font-weight: 600;
+  margin-top: 25px;
+}
+
+.input-box {
+  width: 300px;
+  padding: 8px;
+  font-size: 17px;
+  border-radius: 5px;
+  border: 1px solid #cbd5e1;
+  outline: none;
+  margin-top: 10px;
+}
+
+.btn-space {
+  margin-top: 25px;
+  align-self: flex-start;
+}
+
+.error-msg {
+  color: #ff0b37;
+  font-weight: 500;
+  margin-top: 4px;
+}
